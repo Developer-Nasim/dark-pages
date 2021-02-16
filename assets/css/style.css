@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+  margin: 0 0 15px;
+  font-weight: 300;
+  color: #000000;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #ccff66;
+  font-weight: 300;
+  background-color: #000000;
+}
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+a:hover { text-decoration: none }
+ul{
+  margin: 0;
+  padding: 0;
+}
+ul li{
+  list-style: none;
+  display: inline-block;
+}
+.container{
+  background-color: #333333;
+}
+ /* bass css END */
+
+ 
+ div#offcanvas-navicon {
+  display: none;
+}
+ .header-area .container {
+  background: #000;
+}
+.header-menu nav ul li {
+  display: inline-block;
+  width: 129px;
+  text-align: center;
+}
+
+.header-menu nav ul li a {
+  width: 100%;
+  display: inline-block;
+  color: #ccff66;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 30px 0;
+  padding-top: 50px;
+}
+.header-menu nav ul li a:hover {
+  color: #ccc;
+}
+.header-menu nav ul li a img {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+.logo-area.home-page img {
+  width: 600px;
+  height: 150px;
+}
+.header-menu {
+  border-bottom: 2px solid #333;
+  text-align: center;
+}
+
+.header-menu nav ul li a:hover img {
+  filter: grayscale(1);
+}
+
+.logo-area {
+  text-align: center;
+  padding: 20px 0;
+  padding-top: 5px;
+}
+
+.logo-area a img {
+  width: 400px;
+  height: 100px;
+}
+
+/* header-areea css END */
+.hero-area .col-lg-12{
+  padding: 0;
+}
+.hero-area .container { 
+  padding: 0 !important;
+}
+/* hero-area css END */
+.aboout-area .about-wrepper {
+  padding: 50px 0;
+  border-bottom: 1px solid red;
+  padding-left: 80px;
+}
+
+.aboout-area .about-wrepper h4 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #ccff66;
+}
+
+/* About-area css END */
+.services-area .container {
+  padding: 200px 60px;
+  position: relative;
+}
+
+.services-area .container:after {content: "";position: absolute;width: 100%;height: 240px;top: 0;left: 0;background: url(../img/top-img.png);z-index: 99;display: block;background-size: 100% 110%;}
+
+.services-area .container:before {content: "";position: absolute;width: 100%;height: 140px;background: url(../img/bottom-img.png);bottom: 0;left: 0;background-size: contain;}
+.services-wrepper h4 {
+  font-size: 30px;
+  color: #ccff66;
+  font-weight: 400;
+}
+.services-area .container .row .col-lg-12 {
+  margin-top: 45px;
+}
+.services-icon {
+  position: relative;
+}
+.services-icon:after {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  background: url(../img/arrow.png);
+  bottom: -15px;
+  right: 25px;
+  border-radius: 50%;
+  background-size: cover;
+  background-color: red;
+  transform: rotate(45deg);
+}
+
+/*===============================================================================================
+                                    HOME PAGE CSS END 
+ =====================================================================================================*/
+
+
+
+.welcome-area .container {
+  background: #99cc33;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.welcome-wrepper h2 {
+  font-size: 40px;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: #333;
+  word-spacing: 10px;
+  padding-bottom: 20px;
+}
+
+.welcome-wrepper .welcome-feture .single-feture {
+  display: inline-block;
+  margin: 0px 20px;
+  position: relative;
+}
+
+
+.welcome-wrepper .welcome-feture .single-feture p {
+  color: #333333;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.welcome-wrepper .welcome-feture .single-feture:after {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  background: url(../img/arrow.png);
+  bottom: 55px;
+  right: -20px;
+  border-radius: 50%;
+  background-size: cover;
+  background-color: #08fef9;
+  transform: rotate(45deg);
+} 
+.single-feture.third-box:after { 
+  right: 30px !important; 
+}
+.single-feture.last-box:after { 
+  right: 10px !important; 
+}
+.welcome-area {
+  overflow: hidden;
+}
+/* welcome-area CSS END */
+
+.login-first-box h3 {
+  font-size: 30px;
+  color: #ccff66;
+  font-weight: 400;
+  margin-top: 100px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.login-first-box {
+  border-bottom: 1px solid red;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  padding-top: 50px;
+}
+
+.login-first-box img {
+  position: relative;
+  top: -45px;
+}
+
+.logINmain-wrepper {
+  margin-top: -20px;
+  padding: 0px 20px;
+}
+
+.logINmain-wrepper h4 {
+  color: #ccff66;
+  padding-bottom: 20px;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.logINmain-wrepper h4 span {
+  display: block;
+  padding-left: 80px;
+  font-size: 20px;
+  font-weight: 100;
+  padding-top: 10px;
+}
+
+/* login-wrpper css END */
+
+.detailse-calender h3 {
+  font-size: 30px;
+  color: #ccff66;
+  font-weight: 400;
+  margin-top: 100px;
+}
+
+.detailse-calender h3 img {position: relative;margin-top: -100px;margin-right: 15px;}
+
+.calender-detailse .detailse-box {
+  display: block;
+  padding-bottom: 30px;
+}
+
+.calender-detailse .detailse-box .single-detailse {
+  display: inline-block;
+  width: 15%;
+}
+
+.calender-detailse .detailse-box .single-detailse h4 {color: #ccff66;margin: 0;padding: 0;font-weight: 400;text-transform: capitalize;}
+
+.single-detailse.last-content {
+  width: 40% !important;
+  position: relative;
+  top: 20px;
+}
+
+.calender-detailse .detailse-box .single-detailse p {
+  margin: 0;
+}
+.calender {
+  padding-left: 20px;
+  border-bottom: 1px solid red;
+  width: 100%;
+  padding-bottom: 80px;
+  margin-bottom: 10px;
+}
+
+
+/* detailse-calender css END */
+
+.document-wrepper {
+  padding: 0 20px;
+  border-bottom: 1px solid red;
+  padding-bottom: 10px;
+  padding-top: 30px;
+}
+
+.document-wrepper h4 {
+  padding-top: 100px;
+  font-size: 30px;
+  color: #ccff66;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+.document-wrepper h4 img {
+  margin-top: -100px;
+}
+
+.document-wrepper p {
+  padding-bottom: 10px;
+}
+
+.document-wrepper p.last-pera {
+  padding-bottom: 50px;
+}
+
+.input-sourch {
+  text-align: center;
+}
+
+.input-sourch .sourch-wrepper {
+  width: 250px;
+  margin: auto;
+  display: inline-block;
+}
+
+.input-sourch .sourch-wrepper a {
+  font-size: 22px;
+  background: #ccff66;
+  color: #333333;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.input-sourch .sourch-wrepper h4 {
+  margin: 0;
+  padding: 0;
+  padding-top: 30px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 32px;
+}
+.sourch-img {
+  width: 50%;
+  margin: auto;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  top: -40px;
+}
+
+/* detailse-documantion css END */
+
+.archiv-wrepper {
+  width: 100%;
+  padding-left: 20px;
+  border-bottom: 1px solid red;
+  padding: 30px;
+}
+
+.archiv-wrepper h4 {
+  font-size: 30px;
+  text-transform: capitalize;
+  color: #ccff66;
+  font-weight: 400;
+  padding-top: 100px;
+}
+
+.archiv-wrepper h4 img {
+  margin-top: -100px;
+}
+
+.single-archiv h4 {
+  padding: 0;
+  margin-top: 25px;
+  font-size: 22px;
+}
+
+.single-archiv p {
+  margin: 0;
+  padding-left: 50px;
+  padding-bottom: 10px;
+  position: relative;
+  font-size: 15px;
+}
+.single-archiv p svg {
+  position: absolute;
+  left: 50%;
+  top: 5px;
+  font-size: 20px;
+}
+/* detailse-archiv css END */
+
+.password {
+  width: 100%;
+  padding-left: 20px;
+  border-bottom: 1px solid #ccff66;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+
+.password .demo-wrepper h4 {
+  font-size: 30px;
+  color: #ccff66;
+  font-weight: 400;
+  margin-top: 100px;
+}
+
+.password .demo-wrepper h4 img {
+  margin-top: -100px;
+  margin-right: 15px;
+}
+
+.main-password {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.main-password h4 {
+  font-size: 22px;
+  color: #ccff66;
+  text-transform: capitalize;
+  font-weight: 500;
+  position: relative;
+}
+.main-password span {
+  width: 10px;
+  height: 10px;
+  background: red;
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 25%;
+} 
+.main-password span:after {content: "";position: absolute;width: 10px;height: 10px;background: red;left: 100%;margin-left: 10px;} 
+.main-password span:before {content: "";position: absolute;width: 10px;height: 10px;background: red;right: 100%;margin-right: 10px;}
+
+
+ 
+.footer-area .footer-box .footer-logo a img {
+  width: 100%;
+  height: 100px;
+}
+.login-details {
+  overflow: hidden;
+}
+/* login-details css END */
+
+.footer-box .footer-sub a {
+  display: block;
+  margin-top: 10px;
+  color: #ccff66;
+  font-size: 16px;
+}
+
+.footer-box .footer-sub a img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.footer-box img.location-img {
+  width: 40px;
+  float: left;
+}
+
+.footer-box .location-wrepper {
+  float: right;
+  width: 85%;
+}
+
+.footer-box .location-wrepper h5 {
+  color: #ccff66;
+  position: relative;
+  font-size: 16px;
+}
+
+.footer-box .location-wrepper h5:after {content: "";position: absolute;width: 5px;height: 5px;background: #ccff5e;left: -10px;top: 8px;border-radius: 50%;}
+
+.footer-box .location-wrepper h5.fast-child:after {
+  background: transparent;
+}
+
+.footer-area .container {
+  padding: 50px 0;
+}
+.footer-area{
+  overflow: hidden;
+}
+/* footer-area css END */

@@ -1,0 +1,310 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 992px) {
+    .header-menu nav ul li { 
+        width: 95px; 
+    }
+    .header-menu nav ul li a { 
+        font-size: 16px; 
+    }
+    .header-menu nav ul li a img { 
+        width: 50%;
+    }
+    .services-icon {
+        position: relative;
+        width: 140px;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    .footer-logo {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .footer-area .footer-box .footer-logo a img {
+        width: 50%;
+        height: 100px;
+        margin: auto;
+    }
+    .footer-sub {
+        padding-left: 50px;
+    }
+    .welcome-wrepper .welcome-feture .single-feture img {
+        width: 60px;
+    }
+    .welcome-wrepper .welcome-feture .single-feture { 
+        margin: 0px 15px; 
+    }
+    .single-detailse.last-content {
+        width: 45% !important; 
+    }
+    .main-password span { 
+        left: 30%;
+    }
+    .single-feture.last-box:after { 
+        right: 15px !important; 
+      }
+
+
+
+
+
+}
+
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+    div#offcanvas-navicon {
+        display: block;
+        right: 5%;
+        top: 30px;
+        position: absolute;
+        background-color: transparent;
+    }
+    #offcanvas-navicon:after, #offcanvas-navicon:before, #offcanvas-navicon span { 
+        background: #b2dd5d; 
+    }
+      ul.first-menu {
+        display: none;
+    }
+    #offcanvas-sidebar ul { 
+        border-top: none; 
+    }
+    #offcanvas-sidebar {
+        background: #000; 
+    }
+    #offcanvas-sidebar a:hover {
+        background: #000;
+    }
+    .logo-area.home-page img {
+        width: 230px;
+        height: 70px; 
+    }
+    .logo-area { 
+        text-align: left;
+    }
+    .services-area .container:before { 
+        height: 70px; 
+    } 
+    .services-icon {
+        position: relative;
+        width: 140px;
+        text-align: left;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .footer-logo {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .footer-area .footer-box .footer-logo a img {
+        width: 100%;
+        height: 100px;
+        margin: auto;
+    }
+    .footer-sub {
+        padding-left: 0px;
+        padding-bottom: 40px;
+    }
+    .services-area .container {
+        padding-bottom: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        }
+    .aboout-area .about-wrepper { 
+        padding-left: 20px;
+    }
+    .footer-box {
+        padding-left: 16px;
+    }
+    .welcome-wrepper .welcome-feture .single-feture {
+        margin: 0px 20px;
+        width: 155px;
+        margin: auto;
+        display: inline-block;
+        padding-bottom: 10px;
+    }
+    .logo-area.logIN a img {
+        width: 165px;
+        height: 85px;
+    }
+    .welcome-wrepper .welcome-feture .single-feture:after {
+        content: "";
+        position: absolute;
+        width: 22px;
+        height: 22px;
+        background: url(../img/arrow.png);
+        bottom: 60px;
+        right: 20px;
+        border-radius: 50%;
+        background-size: cover;
+        background-color: #08fef9;
+        transform: rotate(45deg);
+    }
+     
+    .welcome-wrepper .welcome-feture .single-feture p { 
+        font-size: 18px;
+    }
+    .login-first-box img { 
+        top: -23px;
+        width: 85px;
+    }
+    .login-first-box h3 {
+        font-size: 22px; 
+    }
+    .logINmain-wrepper h4 { 
+        margin-top: 22px;
+        font-size: 20px;
+    }
+    .logINmain-wrepper h4 span { 
+        font-size: 15px; 
+    }
+    .detailse-calender h3 {
+        font-size: 22px; 
+    }
+    .detailse-calender h3 img {
+        position: relative;
+        margin-top: -30px;
+        margin-right: 10px;
+        width: 60px;
+    }
+    .calender-detailse .detailse-box .single-detailse {
+        display: inline-block;
+        width: 45%;
+        margin-top: 20px;
+    }
+    .single-detailse.last-content {
+        width: 85% !important;
+        position: relative;
+        top: 20px;
+    }
+    .document-wrepper h4 img {
+        margin-top: -60px;
+        width: 100px;
+    }
+    .document-wrepper h4 { 
+        font-size: 22px; 
+    }
+    .document-wrepper p {
+        padding-bottom: 10px;
+        font-size: 13px;
+    }
+    .sourch-img { 
+        top: 0;
+        margin: 25px 0;
+    }
+    .archiv-wrepper h4 img {
+        margin-top: -25px;
+        width: 60px;
+    }
+    .single-archiv p svg {
+        position: absolute;
+        left: 95%;
+        top: 5px;
+        font-size: 20px;
+    }
+    .password .demo-wrepper h4 img {
+        margin-top: -30px;
+        margin-right: 0;
+        width: 60px;
+    }
+    .password .demo-wrepper h4 {
+        font-size: 22px;
+        color: #ccff66;
+        font-weight: 400;
+        margin-top: 25px;
+    }
+    .main-password span { 
+        left: 60%;
+    }
+    .single-archiv p { 
+        padding-left: 30px; 
+    } 
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .logo-area.logIN a img {
+        width: 260px;
+        height: 85px;
+    }
+    .welcome-wrepper .welcome-feture .single-feture { 
+        margin-top: 20px;
+    }
+    .calender-detailse .detailse-box .single-detailse { 
+        width: 25%;
+    }
+    .sourch-img { 
+        top: 0;
+        margin: 30px 0;
+    }
+    .single-archiv p svg { 
+        left: 75%; 
+    }
+    .main-password h4 { 
+        left: 40px;
+    }
+    .main-password span { 
+        left: 45%;
+    } 
+.password .demo-wrepper h4 img {
+    margin-top: -100px;
+    margin-right: 0;
+}
+
+.login-first-box h3 {
+    font-size: 30px; 
+}
+.logINmain-wrepper h4 { 
+    margin-top: 0px;
+}
+.detailse-calender h3 {
+    font-size: 30px;
+    color: #ccff66; 
+    margin-top: 100px;
+}
+.detailse-calender h3 img {
+    position: relative;
+    margin-top: -30px;
+    margin-right: 15px;
+}
+ 
+.document-wrepper h4 { 
+    font-size: 30px; 
+}
+.document-wrepper p {
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+ 
+.password .demo-wrepper h4 img {
+    margin-top: -20px;
+    margin-right: 15px;
+}
+.password .demo-wrepper h4 {
+    font-size: 30px;
+    color: #ccff66;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+}
